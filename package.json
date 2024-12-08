@@ -1,0 +1,29 @@
+{
+  "name": "AnimeSamaDesktop",
+  "version": "0.0.2",
+  "description": "Anime Sama for Desktop",
+  "main": "main.js",
+  "author": "TonNom",
+  "build": {
+    "appId": "com.animesama.desktop",
+    "productName": "Anime Sama",
+    "files": [
+      "dist/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "XertyLoin",
+        "repo": "AnimeSamaDesktop"
+      }
+    ]
+  },
+  "dependencies": {
+    "electron-updater": "^4.5.6"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.9.1"
+  }
+}
